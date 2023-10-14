@@ -6,30 +6,22 @@ export default function CardLineChart() {
     var config = {
       type: "line",
       data: {
-        labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
-        ],
+        labels: ["1일", "2일", "3일", "4일", "5일", "6일", "7일"],
         datasets: [
           {
-            label: new Date().getFullYear(),
+            label: new Date().getMonth() + 1 + "월",
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
-            data: [65, 78, 66, 44, 56, 67, 75],
+            data: [650000, 780000, 660000, 440000, 560000, 670000, 750000],
             fill: false,
           },
-          {
-            label: new Date().getFullYear() - 1,
-            fill: false,
-            backgroundColor: "#fff",
-            borderColor: "#fff",
-            data: [40, 68, 86, 74, 56, 60, 87],
-          },
+          // {
+          //   label: new Date().getDate() - 1 + "월",
+          //   fill: false,
+          //   backgroundColor: "#fff",
+          //   borderColor: "#fff",
+          //   data: [40, 68, 86, 74, 56, 60, 87],
+          // },
         ],
       },
       options: {
@@ -37,7 +29,7 @@ export default function CardLineChart() {
         responsive: true,
         title: {
           display: false,
-          text: "Sales Charts",
+          text: "주간 매출",
           fontColor: "white",
         },
         legend: {
@@ -115,7 +107,9 @@ export default function CardLineChart() {
               <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
                 Overview
               </h6>
-              <h2 className="text-white text-xl font-semibold">Sales value</h2>
+              <h2 className="text-white text-xl font-semibold">
+                주간 매출 통계
+              </h2>
             </div>
           </div>
         </div>
