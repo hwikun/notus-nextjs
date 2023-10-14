@@ -12,43 +12,40 @@ export default function FooterAdmin() {
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
                   href="https://www.creative-tim.com?ref=nnjs-footer-admin"
-                  className="text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1"
-                >
-                  Creative Tim
+                  className="text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1">
+                  SCIT 44기
+                  <br />
+                  1조 BACS
                 </a>
               </div>
             </div>
             <div className="w-full md:w-8/12 px-4">
               <ul className="flex flex-wrap list-none md:justify-end  justify-center">
-                <li>
+                {/* <li>
                   <a
                     href="https://www.creative-tim.com?ref=nnjs-footer-admin"
-                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
-                  >
+                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">
                     Creative Tim
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.creative-tim.com/presentation?ref=nnjs-footer-admin"
-                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
-                  >
+                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">
                     About Us
                   </a>
                 </li>
                 <li>
                   <a
                     href="http://blog.creative-tim.com?ref=nnjs-footer-admin"
-                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
-                  >
+                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">
                     Blog
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer-admin"
-                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
-                  >
+                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">
                     MIT License
                   </a>
                 </li>

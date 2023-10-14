@@ -6,15 +6,7 @@ export default function CardBarChart() {
     let config = {
       type: "bar",
       data: {
-        labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
-        ],
+        labels: ["1월", "2월", "3월", "4월", "5월", "6월", "7월"],
         datasets: [
           {
             label: new Date().getFullYear(),
@@ -105,10 +97,10 @@ export default function CardBarChart() {
           <div className="flex flex-wrap items-center">
             <div className="relative w-full max-w-full flex-grow flex-1">
               <h6 className="uppercase text-blueGray-400 mb-1 text-xs font-semibold">
-                Performance
+                매출 통계
               </h6>
               <h2 className="text-blueGray-700 text-xl font-semibold">
-                Total orders
+                총 주문 수
               </h2>
             </div>
           </div>
