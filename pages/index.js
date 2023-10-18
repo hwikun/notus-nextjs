@@ -14,18 +14,17 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Notus NextJS - A beautiful extension for Tailwind CSS.
+                매장관리, 키오스크 한번에 BAC!
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Notus NextJS is Free and Open Source. It does not change any of
-                the CSS from{" "}
+                그동안 키오스크 비싸서 고민만 하셨나요?{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-blueGray-600"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Tailwind CSS
+                  이제 고민없이 싸게 BAC!
                 </a>
                 . It features multiple HTML elements and it comes with dynamic
                 components for ReactJS, Vue and Angular.
